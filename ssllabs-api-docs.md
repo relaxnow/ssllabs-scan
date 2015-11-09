@@ -179,7 +179,7 @@ The remainder of the document explains the structure of the returned objects. Th
 
 ### EndpointDetails ###
 
-* **hostStartTime** = endpoint assessment starting time, in milliseconds since 1970. This field is useful when test results are retrieved in several HTTP invocations. Then, you should check that the hostStartTime value matches the startTime value of the host.
+* **hostStartTime** - endpoint assessment starting time, in milliseconds since 1970. This field is useful when test results are retrieved in several HTTP invocations. Then, you should check that the hostStartTime value matches the startTime value of the host.
 * **key{}** - [key information](#key)
 * **cert{}** - [certificate information](#cert)
 * **chain{}** - [chain information](#chain)
